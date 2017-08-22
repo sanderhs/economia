@@ -1,66 +1,67 @@
 @charset "UTF-8";
+/* css para bordas aredondadas*/
+#bebidas{
+	width:300px;
+	height:320px;
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 3%;
+}
+#bebidasresult{
+	width:300px;
+	height:1200px;
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 3%;
+}	
+#carnes{
+	width:300px;
+	height:320px;
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 3%;
+}
+#carnesresult{
+	width:300px;
+	height:1200px;
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 3%;
+}
+#descartaveis{
+	width:300px;
+	height:320px;
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 3%;
+}	
+#descartaveisresult{
+	width:300px;
+	height:900px;
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 3%;
+}	
+#pessoas{
+	width:300px;
+	height:250px;
+	background-color:#C0C0C0;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 3%;
+}	
+#conteiner{
+	width:1200px;
+	height:920px;
+	background-color:#CCCCCC;
+	border-radius: 10px;
+	padding: 2%;
+	margin: 8%;
 
-		#bebidas{
-			width:300px;
-			height:320px;
-			background-color:#C0C0C0;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 3%;
-			}
-		#bebidasresult{
-			width:300px;
-			height:1200px;
-			background-color:#C0C0C0;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 3%;
-			}	
-		#carnes{
-			width:300px;
-			height:320px;
-			background-color:#C0C0C0;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 3%;
-			}
-		#carnesresult{
-			width:300px;
-			height:1200px;
-			background-color:#C0C0C0;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 3%;
-			}
-		#descartaveis{
-			width:300px;
-			height:320px;
-			background-color:#C0C0C0;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 3%;
-			}	
-		#descartaveisresult{
-			width:300px;
-			height:900px;
-			background-color:#C0C0C0;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 3%;
-			}	
-		#pessoas{
-			width:300px;
-			height:250px;
-			background-color:#C0C0C0;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 3%;
-			}	
-		#conteiner{
-			width:1200px;
-			height:920px;
-			background-color:#CCCCCC;
-			border-radius: 10px;
-			padding: 2%;
-			margin: 8%;
-			}	
+}	
