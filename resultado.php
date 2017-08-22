@@ -72,6 +72,7 @@ if(isset($_POST['insert'])){
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
@@ -81,7 +82,7 @@ if(isset($_POST['insert'])){
 				<div align="center">
 				<a href="#" ><img src="imagens/DIADEROCK.png" height="200px" width="200px" align="center"></a></div>
 				
-				<div class="col-md-4">
+				<div id="bebidasresult" class="col-md-4" >
 				<?php 
 				if(isset($_POST["agua"]) == 1){
 					echo <<<HTML
@@ -122,7 +123,7 @@ HTML;
 				
 				</div>
 
-				<div class="col-md-4">
+				<div id="carnesresult" class="col-md-4">
 						<?php 
 				if(isset($_POST["boi"]) == 1){
 					echo <<<HTML
@@ -163,7 +164,7 @@ HTML;
 				</div>
 
 
-				<div class="col-md-4">
+				<div id="descartaveisresult" class="col-md-4">
 				<?php 
 				if(isset($_POST["prato"]) == 1){
 					echo <<<HTML
