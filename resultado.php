@@ -176,7 +176,7 @@ HTML;
 			    </div>
 
 			    <!-- Div para dividir colunas -->
-				<div id="descartaveisresult" class="col-md-4">
+				<div id="carnesresult" class="col-md-4">
 				<?php 
 				if(isset($_POST["prato"]) == 1){//test para imprimir somente o que é usado 
 					//abrir HTML no meio do PHP
